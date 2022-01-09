@@ -1,4 +1,4 @@
-#include <VariableDefinitions.h>
+#include "VariableDefinitions.h"
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer) {
     sprintf(buffer, "%s %s",

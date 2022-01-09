@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
-#include <VariableDefinitions.h>
-#include <TestFunctions.h>
+#include "VariableDefinitions.h"
+#include "TestFunctions.h"
 
 int main() {
     testNumberToPair(4, WHITE, BROWN);
