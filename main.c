@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <assert.h>
-#include "VariableDefinitions.h"
 #include "TestFunctions.h"
 
 int main() {
