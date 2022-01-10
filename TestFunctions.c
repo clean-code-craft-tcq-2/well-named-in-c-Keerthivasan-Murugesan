@@ -27,11 +27,11 @@ void PrintWiringManual(void){
     {
         for(MinorColor_index = 0; MinorColor_index < MaxPossibleColorsInMajorOrMinor; MinorColor_index++)
         {
-             printf("*********************");
+             printf("\n*********************");
              printf("\n Major Color : %s  ", MajorColorNames[MajorColor_index]);
              printf("\n Minor Color : %s  ", MinorColorNames[MinorColor_index]);
              printf("\n Color Code  : %d  ", colorCode);
-             printf("*********************");
+             printf("\n*********************");
              colorCode++;
         }
     }
