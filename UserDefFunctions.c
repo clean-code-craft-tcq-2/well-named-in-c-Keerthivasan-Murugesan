@@ -1,4 +1,4 @@
-#include "VariableFuncDeclarations.h"
+#include "UserDefFunctions.h"
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer) {
     sprintf(buffer, "%s %s",

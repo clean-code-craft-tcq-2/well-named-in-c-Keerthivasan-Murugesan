@@ -1,4 +1,4 @@
-#include "VariableFuncDeclarations.h"
+#include "TestFunctions.h"
 
 void testNumberToPair(int pairNumber, enum MajorColor expectedMajor, enum MinorColor expectedMinor){
     ColorPair colorPair = GetColorFromPairNumber(pairNumber);
@@ -18,21 +18,3 @@ void testPairToNumber(enum MajorColor major, enum MinorColor minor, int expected
     assert(pairNumber == expectedPairNumber);
 }
 
-void PrintWiringManual(void){
-    unsigned int MajorColor_index = 0, MinorColor_index = 0;
-    unsigned int colorCode = 1;
-
-    printf("------- COLOUR CODING DATABASE -------\n");
-    for(MajorColor_index = 0; MajorColor_index < MaxPossibleColorsInMajorOrMinor; MajorColor_index++)
-    {
-        for(MinorColor_index = 0; MinorColor_index < MaxPossibleColorsInMajorOrMinor; MinorColor_index++)
-        {
-             printf("\n*********************");
-             printf("\n Major Color : %s  ", MajorColorNames[MajorColor_index]);
-             printf("\n Minor Color : %s  ", MinorColorNames[MinorColor_index]);
-             printf("\n Color Code  : %d  ", colorCode);
-             printf("\n*********************");
-             colorCode++;
-        }
-    }
-}
