@@ -1,5 +1,4 @@
 #include "TestFunctions.h"
-#include "VariableDefinitions.h"
 
 void testNumberToPair(int pairNumber, enum MajorColor expectedMajor, enum MinorColor expectedMinor){
     ColorPair colorPair = GetColorFromPairNumber(pairNumber);
