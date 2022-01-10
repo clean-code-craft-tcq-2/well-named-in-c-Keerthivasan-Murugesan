@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
-#include "TestFunctions.h"
+#include "VariableFuncDeclarations.h"
 
 int main() {
     testNumberToPair(4, WHITE, BROWN);
