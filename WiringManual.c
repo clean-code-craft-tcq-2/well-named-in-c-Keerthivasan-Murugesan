@@ -1,4 +1,5 @@
 #include "WiringManual.h"
+#include "VariableDefinitions.h"
 
 void PrintWiringManual(void){
     unsigned int MajorColor_index = 0, MinorColor_index = 0;
